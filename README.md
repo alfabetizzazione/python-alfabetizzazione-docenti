@@ -1,8 +1,6 @@
 # Corso Base su Python
 
-Alfabetizzazione su python per la data science
-#Corso Python
-##12 lezioni, ognuna divisa in 3 unità. Ogni unità consiste di 6-10 slide e videolezione di 6-8 minuti + esercizi
+Alfabetizzazione su python per la data science (ma non solo)
 
 # Elenco lezioni
 
@@ -14,6 +12,10 @@ Alfabetizzazione su python per la data science
    1. Funzioni
    1. Orientazione agli oggetti
    1. Lettura dati 
-   1. Data Frame [Gianluca]
+   1. Data Frame
    1. Lavorare su un Dataframe 
    1. Lavorare su più DataFrame
+
+# Eseguire i programmi
+
+Esegui su binder: [![Binder](https://mybinder.org/badge.svg)](https://hub.mybinder.org/user/alfabetizzazion-lfabetizzazione-sgezpju9/tree)
