@@ -184,8 +184,6 @@ hr {
 
 footer {
   float:left;
-  position:fixed;
-  bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -194,16 +192,6 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
-  }
-
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-
-  header {
-    padding-right:320px;
   }
 
   section {
