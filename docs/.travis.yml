@@ -1,0 +1,14 @@
+# dist: bionic
+language: python
+python: 3.7
+branches:
+  only:
+  - gh-pages
+  - /.*/
+before_install:
+  - sudo apt-get update -y
+install:
+  - pip install pyyaml
+script:
+  - make lesson-check-all
+  - make --always-make site
