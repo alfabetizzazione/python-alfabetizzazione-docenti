@@ -5,6 +5,7 @@ Alfabetizzazione su python per la data science (ma non solo)
 # Elenco lezioni
 
    1. Jupyter notebook e python
+   1. Stringhe
    1. Variabili e istruzioni condizionali
    1. Liste 
    1. Iterazioni 
