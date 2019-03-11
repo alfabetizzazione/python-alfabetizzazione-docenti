@@ -8,8 +8,8 @@ Alfabetizzazione su python per la data science (ma non solo)
    1. Stringhe
    1. Variabili e istruzioni condizionali
    1. Liste 
-   1. Iterazioni 
    1. Dizionari 
+   1. Iterazioni 
    1. Funzioni
    1. Orientazione agli oggetti
    1. Lettura dati 
