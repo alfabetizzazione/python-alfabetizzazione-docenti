@@ -4,6 +4,7 @@ c = input("Immetti il coefficiente c ")
 print ("Data l'equazione algebrica " + str(a) +
        "*X^2+" + str(b) + "*X+" + str(c) + "=0 ")
 delta = b * b - 4 * a * c
+
 if delta >= 0:
     rad_delta = delta**0.5
     x1 = -(b - rad_delta) / (2 * a)
