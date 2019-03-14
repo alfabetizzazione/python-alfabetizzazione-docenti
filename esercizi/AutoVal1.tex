@@ -1,0 +1,40 @@
+%!TEX program = xelatex
+\documentclass[a4]{article}
+\usepackage{fontspec, graphicx}
+\usepackage{xunicode}
+%	\usepackage{xltxtra}
+\usepackage{polyglossia}
+%	\setmainlanguage[]{italian}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setmainfont[Ligatures=TeX]{Gentium Basic}
+\setsansfont[Ligatures=TeX,Scale=MatchLowercase]{Gentium Basic}
+\setmonofont[Scale=MatchLowercase]{Inconsolata}
+\usepackage[xetex]{media9}
+
+
+
+\graphicspath{{/Users/dario/Works/images/},{/Users/dariopescini/Works/images/}}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+{\noindent \Large{\bf Si risolvano i seguenti esercizi esplicitando i seguenti passaggi:}
+\begin{itemize}
+	\item definizione di input ed output della procedura
+	\item disegno del corrispondente diagramma di flusso
+	\item implementazione in Python.
+\end{itemize}
+
+\vspace{.5cm}
+\begin{enumerate}
+	\item Scrivere un programma che stabilisca a quale quadrante o asse cartesiano, appartiene un punto di coordinate $x$ ed $y$ inserite dall'utente.\\ \includegraphics[width=.25\textwidth]{InfStatPyQuadranti}\\[.25cm]
+	\item Scrivere un programma che stabilisca se tre numeri, inseriti dall'utente, possono essere i tre lati di un triangolo. Si sfrutti la propietà che ciascun lato deve essere minore della somma degli altri due.\\[.25cm]
+	\item Si scriva un programma che computi il costo della sosta (durata massima 24h, espresso in minuti) in un parcheggio a pagamento che applichi le seguenti tariffe:
+	\begin{itemize}
+		\item Gratuita per i primi  30 min.
+		\item dal 31° min. al 120° min.    euro 1,00
+		\item dal 121° min. fino alla 6° ora  euro 0,50/ora
+		\item oltre la 6° ora  euro 1,00/ora fino ad un massimo di euro 16,00
+	\end{itemize}
+\end{enumerate}
+}
+\end{document}
